@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/futuristic-tech-digital-circuit-line-background-web-innovation_1017-53927.jpg');
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+#imagen{
+    margin-right: 100px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.main-content {
+    padding: 40px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 60px;
+    color:darkorange;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #ffd700;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: center;
+}
